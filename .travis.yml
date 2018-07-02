@@ -6,6 +6,7 @@ os:
 
 env:
   global:
+    - OCAMLPARAM="safe-string=0,_"
     # SAUCE_USERNAME
     - secure: SjyKefmjUEXi0IKHGGpcbLAajU0mLHONg8aA8LoY7Q9nAkSN6Aql+fzS38Boq7w1jWn+2FOpr+4jy0l6wVd/bftsF+huFfYpFJmdh8BlKmE0K71zZAral0H1c7YxkuQpPiJCIFGXqtkvev7SWTy0z31u7kuuQeEyW27boXe5cDA=
     # SAUCE_ACCESS_KEY
